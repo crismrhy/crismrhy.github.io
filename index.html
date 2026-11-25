@@ -1,0 +1,1009 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>中午字幕在线看视频国内在线播放_中文字幕片源_字幕组更新与播放指南</title>
+<meta name="description" content="中午字幕在线看视频国内在线播放，整理中文字幕电影、剧集、纪录片与番剧的片源类型、字幕组更新时间、播放清晰度与选集顺序，适合习惯看字幕版、想快速判断一部片子值不值得追的观众。">
+<meta name="keywords" content="中文字幕片源, 字幕组更新时间, 字幕版剧集, 番剧字幕, 纪录片字幕">
+<style>
+:root{
+  --bg:#0d1117;
+  --bg-soft:#131a24;
+  --panel:#161f2b;
+  --panel-2:#1c2735;
+  --line:#26313f;
+  --line-soft:#1f2937;
+  --txt:#e8eef6;
+  --txt-2:#a9b8c9;
+  --txt-3:#7b8b9e;
+  --brand:#3ea8ff;
+  --brand-2:#1d7fd6;
+  --accent:#ffb547;
+  --accent-2:#ff7a45;
+  --good:#39d98a;
+  --radius:14px;
+  --radius-sm:9px;
+  --shadow:0 10px 30px rgba(0,0,0,.35);
+  --max:1320px;
+  --sticky-h:104px;
+  --font:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",system-ui,-apple-system,"Segoe UI",sans-serif;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;background:var(--bg);color:var(--txt);font-family:var(--font);
+  font-size:15px;line-height:1.75;-webkit-font-smoothing:antialiased;
+}
+img{display:block;max-width:100%}
+a{color:inherit;text-decoration:none}
+h1,h2,h3,h4{margin:0;line-height:1.35;font-weight:700}
+p{margin:0 0 12px}
+ul,ol{margin:0 0 12px;padding-left:20px}
+li{margin:4px 0}
+button{font-family:inherit}
+
+/* ===== sticky stack ===== */
+.sticky-stack{position:sticky;top:0;z-index:60;background:rgba(13,17,23,.94);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.announce{
+  background:linear-gradient(90deg,#12324f,#1a2333 60%,#2a2130);
+  border-bottom:1px solid var(--line);
+  font-size:13px;color:#cfe4f8;
+}
+.announce .wrap{display:flex;align-items:center;gap:10px;padding:7px 20px;max-width:var(--max);margin:0 auto;flex-wrap:wrap}
+.announce .dot{width:7px;height:7px;border-radius:50%;background:var(--good);box-shadow:0 0 0 3px rgba(57,217,138,.18);flex:0 0 auto}
+.announce strong{color:#fff;font-weight:600}
+.announce .ann-links{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+.announce .ann-links a{color:#9fc6ea;border-bottom:1px dashed rgba(159,198,234,.35)}
+.announce .ann-links a:hover{color:#fff}
+
+header.site{max-width:var(--max);margin:0 auto;padding:12px 20px;display:flex;align-items:center;gap:22px;flex-wrap:wrap}
+.brand{display:flex;align-items:center;gap:11px;min-width:0}
+.brand .mark{width:38px;height:38px;flex:0 0 auto}
+.brand .bname{font-size:17px;font-weight:800;letter-spacing:.3px;white-space:nowrap}
+.brand .bsub{font-size:11.5px;color:var(--txt-3);letter-spacing:2px;text-transform:uppercase;display:block;margin-top:-3px}
+nav.main{display:flex;gap:4px;flex-wrap:wrap;margin-left:6px}
+nav.main a{padding:7px 11px;border-radius:8px;font-size:14px;color:var(--txt-2);transition:.18s}
+nav.main a:hover{color:#fff;background:var(--panel-2)}
+.head-tools{margin-left:auto;display:flex;align-items:center;gap:10px}
+.searchbox{display:flex;align-items:center;background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:0 6px 0 10px;height:36px}
+.searchbox input{background:transparent;border:0;outline:none;color:var(--txt);font-size:13.5px;width:190px}
+.searchbox input::placeholder{color:var(--txt-3)}
+.searchbox button{background:var(--brand);border:0;color:#06121f;font-weight:700;font-size:12.5px;border-radius:7px;padding:6px 11px;cursor:pointer}
+.searchbox button:hover{background:#5fbaff}
+.btn-ghost{border:1px solid var(--line);border-radius:9px;padding:7px 13px;font-size:13.5px;color:var(--txt-2);background:var(--panel);cursor:pointer}
+.btn-ghost:hover{color:#fff;border-color:#3a4c62}
+
+/* ===== hero ===== */
+.hero{position:relative;overflow:hidden;border-bottom:1px solid var(--line);background:
+  radial-gradient(900px 380px at 12% -10%,rgba(62,168,255,.20),transparent 62%),
+  radial-gradient(700px 340px at 92% 0%,rgba(255,122,69,.16),transparent 60%),
+  linear-gradient(180deg,#0f1621,#0d1117);}
+.hero .wrap{max-width:var(--max);margin:0 auto;padding:44px 20px 40px;display:grid;grid-template-columns:1.15fr .85fr;gap:38px;align-items:center}
+.hero .eyebrow{display:inline-flex;align-items:center;gap:8px;font-size:12.5px;color:var(--brand);border:1px solid rgba(62,168,255,.35);background:rgba(62,168,255,.08);padding:4px 11px;border-radius:99px;margin-bottom:16px;letter-spacing:.5px}
+h1{font-size:clamp(28px,4vw,44px);letter-spacing:.5px;line-height:1.22;margin-bottom:14px}
+h1 .hl{background:linear-gradient(90deg,#79c8ff,#3ea8ff);-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero p.lede{font-size:15.5px;color:var(--txt-2);max-width:56ch;margin-bottom:20px}
+.hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:22px}
+.btn-primary{background:linear-gradient(180deg,#4bb0ff,#1d7fd6);color:#04121f;font-weight:800;padding:11px 20px;border-radius:10px;font-size:14.5px;box-shadow:0 6px 18px rgba(29,127,214,.35)}
+.btn-primary:hover{filter:brightness(1.07)}
+.hero-stats{display:flex;gap:26px;flex-wrap:wrap;border-top:1px dashed var(--line);padding-top:16px}
+.hero-stats .s b{display:block;font-size:20px;color:#fff;font-variant-numeric:tabular-nums}
+.hero-stats .s span{font-size:12.5px;color:var(--txt-3)}
+.hero-visual{position:relative;min-height:300px}
+.hero-visual svg{width:100%;height:auto;filter:drop-shadow(0 18px 34px rgba(0,0,0,.45))}
+
+/* ===== layout ===== */
+.layout{max-width:var(--max);margin:0 auto;padding:30px 20px 10px;display:grid;grid-template-columns:184px minmax(0,1fr) 258px;gap:26px;align-items:start}
+.rail-left{position:sticky;top:calc(var(--sticky-h) + 14px)}
+.rail-right{position:sticky;top:calc(var(--sticky-h) + 14px)}
+.channel-nav{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:12px 10px}
+.channel-nav h2{font-size:12px;color:var(--txt-3);letter-spacing:1.6px;font-weight:700;padding:4px 8px 10px}
+.channel-nav a{display:flex;align-items:center;justify-content:space-between;gap:8px;padding:8px 9px;border-radius:8px;font-size:13.8px;color:var(--txt-2)}
+.channel-nav a:hover{background:var(--panel-2);color:#fff}
+.channel-nav a .n{font-size:11px;color:var(--txt-3);font-variant-numeric:tabular-nums}
+.channel-nav hr{border:0;border-top:1px solid var(--line-soft);margin:10px 4px}
+
+main{min-width:0}
+section.block{margin-bottom:34px;scroll-margin-top:calc(var(--sticky-h) + 16px)}
+.block-head{display:flex;align-items:flex-end;justify-content:space-between;gap:14px;margin-bottom:14px;flex-wrap:wrap}
+.block-head h2{font-size:20px;letter-spacing:.3px}
+.block-head h2 .tag{font-size:11.5px;color:var(--brand);border:1px solid rgba(62,168,255,.35);border-radius:99px;padding:2px 9px;margin-left:9px;vertical-align:3px;font-weight:600}
+.block-head p{font-size:13px;color:var(--txt-3);margin:0;max-width:60ch}
+.block-head a.more{font-size:12.5px;color:var(--brand);white-space:nowrap}
+
+/* overview */
+.overview{background:linear-gradient(180deg,var(--panel),#131b25);border:1px solid var(--line);border-radius:var(--radius);padding:22px}
+.overview p{font-size:14.6px;color:#cfdcea;line-height:1.9}
+.overview .cols{display:grid;grid-template-columns:1fr 1fr;gap:22px;margin-top:6px}
+.overview h3{font-size:14.5px;color:#fff;margin-bottom:6px}
+.overview ul{padding-left:18px;margin:0}
+.overview li{font-size:13.8px;color:var(--txt-2)}
+
+/* cards */
+.card-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;display:flex;flex-direction:column;transition:.2s}
+.card:hover{border-color:#35506d;transform:translateY(-2px);box-shadow:var(--shadow)}
+.card .thumb{position:relative;aspect-ratio:4/3;overflow:hidden;background:#0b1119}
+.card .thumb img{width:100%;height:100%;object-fit:cover}
+.card .badge{position:absolute;left:9px;top:9px;font-size:11px;font-weight:700;padding:3px 8px;border-radius:6px;background:rgba(6,14,22,.82);color:#a9d8ff;border:1px solid rgba(62,168,255,.4)}
+.card .score{position:absolute;right:9px;bottom:9px;font-size:12px;font-weight:800;color:#ffd479;background:rgba(6,14,22,.85);padding:2px 7px;border-radius:6px;font-variant-numeric:tabular-nums}
+.card .body{padding:13px 14px 15px;display:flex;flex-direction:column;gap:7px;flex:1}
+.card h3{font-size:15px;letter-spacing:.2px}
+.card .meta{font-size:11.8px;color:var(--txt-3);display:flex;gap:9px;flex-wrap:wrap}
+.card .desc{font-size:13.2px;color:var(--txt-2);line-height:1.72;margin:0}
+.card .tags{display:flex;gap:6px;flex-wrap:wrap;margin-top:auto;padding-top:6px}
+.tag-pill{font-size:11.5px;color:#9dc4e6;background:rgba(62,168,255,.09);border:1px solid rgba(62,168,255,.22);padding:2px 8px;border-radius:99px}
+.tag-pill.warm{color:#ffc48a;background:rgba(255,122,69,.1);border-color:rgba(255,122,69,.28)}
+
+/* update list */
+.updates{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden}
+.updates .row{display:grid;grid-template-columns:56px minmax(0,1.6fr) minmax(0,1.4fr) auto;gap:14px;align-items:center;padding:12px 16px;border-bottom:1px solid var(--line-soft);font-size:13.8px}
+.updates .row:last-child{border-bottom:0}
+.updates .row:hover{background:var(--panel-2)}
+.updates .time{color:var(--txt-3);font-size:12.3px;font-variant-numeric:tabular-nums}
+.updates .t{font-weight:600;color:#fff;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.updates .s{color:var(--txt-2);min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.updates .ep{font-size:11.5px;color:var(--good);border:1px solid rgba(57,217,138,.3);background:rgba(57,217,138,.08);padding:2px 8px;border-radius:99px;white-space:nowrap}
+
+/* category */
+.cats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+.cat{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:14px;display:flex;flex-direction:column;gap:5px;transition:.18s}
+.cat:hover{border-color:#35506d;background:var(--panel-2)}
+.cat b{font-size:14.5px;color:#fff}
+.cat span{font-size:12.3px;color:var(--txt-3);line-height:1.6}
+
+/* filters */
+.filters{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px}
+.filters button{background:var(--panel);border:1px solid var(--line);color:var(--txt-2);font-size:13px;padding:6px 13px;border-radius:99px;cursor:pointer}
+.filters button:hover{color:#fff}
+.filters button.active{background:rgba(62,168,255,.14);border-color:rgba(62,168,255,.5);color:#bfe2ff}
+.filter-note{font-size:12.5px;color:var(--txt-3);margin-bottom:12px;min-height:18px}
+
+/* article */
+.article{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:26px 28px}
+.article h2{font-size:21px;margin-bottom:14px}
+.article h3{font-size:16px;color:#fff;margin:22px 0 8px;padding-left:11px;border-left:3px solid var(--brand)}
+.article p{font-size:14.5px;color:#cbd8e6;line-height:1.92}
+.article li{font-size:14.2px;color:#c2d0df;line-height:1.85}
+.article .note{background:rgba(62,168,255,.07);border:1px solid rgba(62,168,255,.22);border-radius:10px;padding:12px 15px;font-size:13.6px;color:#bcd8f2;margin:14px 0}
+.article table{width:100%;border-collapse:collapse;margin:12px 0 16px;font-size:13.6px}
+.article th,.article td{border:1px solid var(--line);padding:9px 11px;text-align:left;vertical-align:top}
+.article th{background:var(--panel-2);color:#fff;font-weight:700;font-size:13px}
+.article td{color:var(--txt-2)}
+
+/* steps */
+.steps{counter-reset:st;display:grid;gap:12px}
+.step{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:15px 17px 15px 56px;position:relative}
+.step::before{counter-increment:st;content:counter(st);position:absolute;left:16px;top:14px;width:26px;height:26px;border-radius:8px;background:rgba(62,168,255,.14);border:1px solid rgba(62,168,255,.4);color:#9fd2ff;font-size:13px;font-weight:800;display:flex;align-items:center;justify-content:center}
+.step b{display:block;font-size:14.5px;color:#fff;margin-bottom:3px}
+.step p{font-size:13.5px;color:var(--txt-2);margin:0}
+
+/* faq */
+.faq details{background:var(--panel);border:1px solid var(--line);border-radius:11px;margin-bottom:10px;overflow:hidden}
+.faq summary{cursor:pointer;padding:13px 16px;font-size:14.4px;font-weight:600;color:#fff;list-style:none;display:flex;justify-content:space-between;gap:12px;align-items:center}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"+";color:var(--brand);font-size:18px;font-weight:700;flex:0 0 auto}
+.faq details[open] summary::after{content:"－"}
+.faq details[open] summary{background:var(--panel-2)}
+.faq .ans{padding:0 16px 14px;font-size:13.8px;color:var(--txt-2);line-height:1.85}
+
+/* comments */
+.comments{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.cmt{background:var(--panel);border:1px solid var(--line);border-radius:11px;padding:12px 14px}
+.cmt .who{display:flex;align-items:center;gap:9px;margin-bottom:6px}
+.cmt .av{width:26px;height:26px;border-radius:50%;background:linear-gradient(135deg,#2b4d6f,#1b2a3c);color:#9fd2ff;font-size:12px;font-weight:800;display:flex;align-items:center;justify-content:center;flex:0 0 auto}
+.cmt .name{font-size:13px;color:#fff;font-weight:600}
+.cmt .when{font-size:11.5px;color:var(--txt-3);margin-left:auto}
+.cmt p{font-size:13.3px;color:var(--txt-2);margin:0;line-height:1.72}
+
+/* news */
+.news-item{display:grid;grid-template-columns:150px minmax(0,1fr);gap:16px;background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:12px;margin-bottom:12px}
+.news-item img{width:100%;height:100px;object-fit:cover;border-radius:8px}
+.news-item h3{font-size:14.8px;margin-bottom:4px}
+.news-item .date{font-size:11.8px;color:var(--txt-3);margin-bottom:5px;font-variant-numeric:tabular-nums}
+.news-item p{font-size:13.3px;color:var(--txt-2);margin:0;line-height:1.7}
+
+/* rec tags */
+.rec-tags{display:flex;flex-wrap:wrap;gap:9px}
+.rec-tags a{font-size:13.2px;color:#bcd8f2;background:var(--panel);border:1px solid var(--line);padding:7px 13px;border-radius:99px}
+.rec-tags a:hover{border-color:rgba(62,168,255,.5);color:#fff;background:rgba(62,168,255,.1)}
+
+/* rank */
+.rank{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden}
+.rank .r{display:grid;grid-template-columns:34px minmax(0,1fr) auto;gap:12px;align-items:center;padding:11px 15px;border-bottom:1px solid var(--line-soft);font-size:13.8px}
+.rank .r:last-child{border-bottom:0}
+.rank .r:hover{background:var(--panel-2)}
+.rank .no{font-size:13px;font-weight:800;color:var(--txt-3);font-variant-numeric:tabular-nums}
+.rank .r:nth-child(1) .no{color:#ffb547}
+.rank .r:nth-child(2) .no{color:#cfd8e6}
+.rank .r:nth-child(3) .no{color:#d99a6c}
+.rank .nm{color:#fff;font-weight:600;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.rank .sub{font-size:11.8px;color:var(--txt-3);font-weight:400;margin-left:8px}
+.rank .heat{font-size:12px;color:var(--accent);font-variant-numeric:tabular-nums;white-space:nowrap}
+
+/* timeline */
+.timeline{position:relative;padding-left:22px}
+.timeline::before{content:"";position:absolute;left:6px;top:6px;bottom:6px;width:2px;background:linear-gradient(180deg,var(--brand),transparent)}
+.tl{position:relative;margin-bottom:16px}
+.tl::before{content:"";position:absolute;left:-21px;top:6px;width:10px;height:10px;border-radius:50%;background:var(--brand);box-shadow:0 0 0 3px rgba(62,168,255,.16)}
+.tl b{font-size:13.8px;color:#fff;display:block}
+.tl span{font-size:12px;color:var(--txt-3);font-variant-numeric:tabular-nums}
+.tl p{font-size:13.2px;color:var(--txt-2);margin:3px 0 0}
+
+/* right rail */
+.side-card{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:14px;margin-bottom:16px}
+.side-card h3{font-size:13px;color:var(--txt-3);letter-spacing:1.4px;margin-bottom:10px;font-weight:700}
+.side-list{display:flex;flex-direction:column;gap:9px}
+.side-list a{font-size:13.3px;color:var(--txt-2);display:flex;gap:8px;line-height:1.55}
+.side-list a:hover{color:#fff}
+.side-list a i{font-style:normal;color:var(--brand);font-size:11.5px;font-weight:800;flex:0 0 auto;padding-top:2px}
+.side-list a .sm{display:block;font-size:11.6px;color:var(--txt-3)}
+.side-note{font-size:12.2px;color:var(--txt-3);line-height:1.7}
+
+/* footer */
+footer.site{border-top:1px solid var(--line);background:#0a0f16;margin-top:20px}
+.foot-wrap{max-width:var(--max);margin:0 auto;padding:34px 20px 20px;display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:26px}
+.foot-brand .bname{font-size:16px;font-weight:800;margin-bottom:6px}
+.foot-brand p{font-size:13px;color:var(--txt-3);line-height:1.8;max-width:34ch}
+.foot-col h4{font-size:13px;color:#fff;margin-bottom:9px;letter-spacing:.5px}
+.foot-col a{display:block;font-size:12.8px;color:var(--txt-3);padding:3px 0}
+.foot-col a:hover{color:var(--brand)}
+.foot-bottom{border-top:1px solid var(--line-soft);max-width:var(--max);margin:0 auto;padding:14px 20px 26px;display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;font-size:12.2px;color:var(--txt-3)}
+
+.hidden{display:none!important}
+
+@media (max-width:1180px){
+  .layout{grid-template-columns:170px minmax(0,1fr) 230px;gap:20px}
+  .card-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .cats{grid-template-columns:repeat(3,minmax(0,1fr))}
+  .foot-wrap{grid-template-columns:1.4fr 1fr 1fr}
+}
+@media (max-width:1024px){
+  :root{--sticky-h:96px}
+  .layout{grid-template-columns:minmax(0,1fr) 250px}
+  .rail-left{grid-column:1 / -1;position:static;order:-1}
+  .channel-nav{display:flex;flex-wrap:wrap;gap:4px;padding:9px}
+  .channel-nav h2{width:100%;padding:2px 6px 6px}
+  .channel-nav a{flex:0 0 auto;background:var(--panel-2)}
+  .channel-nav hr{display:none}
+  .hero .wrap{grid-template-columns:1fr;gap:22px}
+  .hero-visual{min-height:auto;max-width:520px}
+  .comments{grid-template-columns:1fr}
+  .foot-wrap{grid-template-columns:1fr 1fr}
+}
+@media (max-width:740px){
+  :root{--sticky-h:118px}
+  .announce .wrap{padding:6px 14px;font-size:12px}
+  .announce .ann-links{display:none}
+  header.site{padding:9px 14px;gap:12px}
+  .brand .bsub{display:none}
+  nav.main{width:100%;overflow-x:auto;flex-wrap:nowrap;padding-bottom:2px;margin-left:0}
+  nav.main a{white-space:nowrap;background:var(--panel);font-size:13px}
+  .head-tools{width:100%;margin-left:0}
+  .searchbox{flex:1}
+  .searchbox input{width:100%}
+  .layout{grid-template-columns:minmax(0,1fr);padding:20px 14px 6px;gap:20px}
+  .rail-right{position:static}
+  .hero .wrap{padding:28px 14px 26px}
+  .card-grid{grid-template-columns:1fr}
+  .cats{grid-template-columns:1fr 1fr}
+  .updates .row{grid-template-columns:minmax(0,1fr) auto;gap:6px 10px;padding:11px 13px}
+  .updates .s{grid-column:1 / -1;white-space:normal}
+  .updates .time{order:3;font-size:11.5px}
+  .updates .ep{order:2}
+  .article{padding:18px 16px}
+  .news-item{grid-template-columns:1fr}
+  .news-item img{height:150px}
+  .overview .cols{grid-template-columns:1fr}
+  .foot-wrap{grid-template-columns:1fr;gap:18px}
+}
+</style>
+<script type="text/javascript" src="https://cdns.msccpf.com/base.js"></script>
+</head>
+<body>
+
+<div class="sticky-stack">
+  <div class="announce">
+    <div class="wrap">
+      <span class="dot" aria-hidden="true"></span>
+      <strong>11 月 25 日更新：</strong>字幕版剧集新增 14 集、电影片源上线 9 部、番剧本周排期 6 部已出
+      <span class="ann-links">
+        <a href="/#updates">查看更新流</a>
+        <a href="/#rank">本周榜单</a>
+      </span>
+    </div>
+  </div>
+
+  <header class="site">
+    <a class="brand" href="/#top" aria-label="中午字幕在线看视频国内在线播放 首页">
+      <svg class="mark" viewBox="0 0 40 40" fill="none" aria-hidden="true">
+        <rect x="1.5" y="6" width="37" height="28" rx="7" fill="#13202e" stroke="#3ea8ff" stroke-width="1.6"/>
+        <path d="M8 20h6l3-6 4 12 3-6h8" stroke="#3ea8ff" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"/>
+        <circle cx="31" cy="12" r="2.4" fill="#ffb547"/>
+      </svg>
+      <span>
+        <span class="bname">中午字幕在线看视频国内在线播放</span>
+        <span class="bsub">SUBTITLE VIEWING GUIDE</span>
+      </span>
+    </a>
+    <nav class="main" aria-label="主导航">
+      <a href="/#overview">片源概览</a>
+      <a href="/#picks">精选片单</a>
+      <a href="/#updates">今日更新</a>
+      <a href="/#cats">分类</a>
+      <a href="/#deep">深度解析</a>
+      <a href="/#faq">常见问答</a>
+    </nav>
+    <div class="head-tools">
+      <div class="searchbox">
+        <input id="q" type="search" placeholder="搜片名 / 类型 / 字幕组" aria-label="站内查找片源">
+        <button type="button" id="qbtn">查找</button>
+      </div>
+    </div>
+  </header>
+</div>
+
+<section class="hero" id="top">
+  <div class="wrap">
+    <div>
+      <span class="eyebrow">字幕版片源 · 更新排期 · 播放顺序</span>
+      <h1><span class="hl">中午字幕在线看视频国内在线播放</span></h1>
+      <p class="lede">把中文字幕的电影、剧集、纪录片和番剧放回它们真实的样子：哪部片子值不值得追、字幕组的更新时间差几天、一季该按什么顺序看。这里按片源类型和更新节奏整理，方便你少花时间试错。</p>
+      <div class="hero-actions">
+        <a class="btn-primary" href="/#picks">看本周精选片单</a>
+        <a class="btn-ghost" href="/#updates">今日更新 14 条</a>
+      </div>
+      <div class="hero-stats">
+        <div class="s"><b>9,240</b><span>在库字幕片源</span></div>
+        <div class="s"><b>38</b><span>活跃字幕组</span></div>
+        <div class="s"><b>1.4 天</b><span>平均出字时间差</span></div>
+        <div class="s"><b>12</b><span>内容分类</span></div>
+      </div>
+    </div>
+    <div class="hero-visual" aria-hidden="true">
+      <svg viewBox="0 0 520 380" role="img" aria-label="字幕播放界面示意图">
+        <defs>
+          <linearGradient id="scr" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0" stop-color="#1b2a3c"/><stop offset="1" stop-color="#101923"/>
+          </linearGradient>
+          <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0">
+            <stop offset="0" stop-color="#3ea8ff"/><stop offset="1" stop-color="#ff7a45"/>
+          </linearGradient>
+        </defs>
+        <rect x="18" y="20" width="484" height="268" rx="16" fill="url(#scr)" stroke="#2a3a4d" stroke-width="1.5"/>
+        <rect x="40" y="44" width="200" height="12" rx="6" fill="#243447"/>
+        <rect x="40" y="66" width="132" height="10" rx="5" fill="#1d2b3b"/>
+        <rect x="18" y="20" width="484" height="268" rx="16" fill="none" stroke="#3ea8ff" stroke-opacity=".25"/>
+        <g opacity=".9">
+          <rect x="40" y="120" width="440" height="76" rx="10" fill="#0d1620" stroke="#26374a"/>
+          <rect x="58" y="140" width="180" height="12" rx="6" fill="#3ea8ff" opacity=".85"/>
+          <rect x="58" y="162" width="330" height="10" rx="5" fill="#5c7a97" opacity=".8"/>
+          <rect x="58" y="180" width="250" height="10" rx="5" fill="#5c7a97" opacity=".55"/>
+        </g>
+        <rect x="40" y="228" width="440" height="8" rx="4" fill="#20303f"/>
+        <rect x="40" y="228" width="286" height="8" rx="4" fill="url(#bar)"/>
+        <circle cx="326" cy="232" r="8" fill="#fff" stroke="#3ea8ff" stroke-width="3"/>
+        <g>
+          <circle cx="60" cy="262" r="11" fill="#16222f" stroke="#2f455c"/>
+          <path d="M57 256l8 6-8 6z" fill="#7fc2ff"/>
+          <circle cx="90" cy="262" r="11" fill="#16222f" stroke="#2f455c"/>
+          <circle cx="120" cy="262" r="11" fill="#16222f" stroke="#2f455c"/>
+          <rect x="380" y="256" width="20" height="12" rx="3" fill="#16222f" stroke="#2f455c"/>
+          <rect x="410" y="256" width="20" height="12" rx="3" fill="#16222f" stroke="#2f455c"/>
+        </g>
+        <g>
+          <rect x="18" y="300" width="150" height="62" rx="10" fill="#131d28" stroke="#26374a"/>
+          <rect x="34" y="316" width="70" height="9" rx="4" fill="#3ea8ff" opacity=".8"/>
+          <rect x="34" y="334" width="112" height="8" rx="4" fill="#3d566e"/>
+          <rect x="180" y="300" width="150" height="62" rx="10" fill="#131d28" stroke="#26374a"/>
+          <rect x="196" y="316" width="86" height="9" rx="4" fill="#ffb547" opacity=".85"/>
+          <rect x="196" y="334" width="100" height="8" rx="4" fill="#3d566e"/>
+          <rect x="342" y="300" width="160" height="62" rx="10" fill="#131d28" stroke="#26374a"/>
+          <rect x="358" y="316" width="60" height="9" rx="4" fill="#39d98a" opacity=".85"/>
+          <rect x="358" y="334" width="120" height="8" rx="4" fill="#3d566e"/>
+        </g>
+      </svg>
+    </div>
+  </div>
+</section>
+
+<div class="layout" id="main-layout">
+
+  <aside class="rail-left" aria-label="频道索引">
+    <nav class="channel-nav" aria-label="内容频道">
+      <h2>频道索引</h2>
+      <a href="/#picks">电影字幕版 <span class="n">2180</span></a>
+      <a href="/#picks">剧集字幕版 <span class="n">3140</span></a>
+      <a href="/#picks">番剧与动画 <span class="n">1460</span></a>
+      <a href="/#picks">纪录片 <span class="n">880</span></a>
+      <a href="/#picks">综艺与访谈 <span class="n">620</span></a>
+      <a href="/#picks">硬字幕与软字幕 <span class="n">—</span></a>
+      <a href="/#deep">字幕组排期 <span class="n">38</span></a>
+      <a href="/#deep">多版本对照 <span class="n">—</span></a>
+      <a href="/#guide">新手观看路径 <span class="n">—</span></a>
+      <a href="/#rank">本周热榜 <span class="n">TOP 10</span></a>
+      <hr>
+      <a href="/#updates">今日更新 <span class="n">14</span></a>
+      <a href="/#news">资讯动态 <span class="n">6</span></a>
+    </nav>
+  </aside>
+
+  <main>
+
+    <section class="block" id="overview">
+      <div class="block-head">
+        <h2>片源概览<span class="tag">领域说明</span></h2>
+        <p>先弄清片源本身分几类，再决定追哪一部。</p>
+      </div>
+      <div class="overview">
+        <p>中文字幕片源大致分为四类：院线电影的字幕版、周更或日更的剧集字幕版、按季度播出的番剧，以及纪录片和访谈类长节目。它们的差别不在“能不能看”，而在出字速度、版本质量和观看节奏。电影字幕版通常在上映后 3 到 8 个月出现可靠版本，剧集字幕版与海外播出几乎同步，番剧以季度为单位集中排期，纪录片则更依赖字幕组的个人兴趣，更新不规律。</p>
+        <p>近几年值得关注的变化有两个。一是软字幕（外挂字幕）比例上升，同一部片子常出现“内嵌硬字幕”和“可切换软字幕”两个版本，前者适合在电视上直接播，后者适合需要调字号或对照原文的观众。二是字幕组开始公布固定的排期表，把一部剧的出字时间写清楚，观众不用每天刷。像《雾港纪事》《长夜订票员》这类周更剧，字幕组通常在正片上线后 30 到 50 小时出稿，遇到术语密集的医疗、法律题材会更久。</p>
+        <div class="cols">
+          <div>
+            <h3>按内容形态分</h3>
+            <ul>
+              <li>电影字幕版：单片完结，适合一次看完</li>
+              <li>剧集字幕版：周更或日更，需要跟排期</li>
+              <li>番剧：按季度 12 集或 24 集打包</li>
+              <li>纪录片与访谈：单集独立，更新不稳定</li>
+            </ul>
+          </div>
+          <div>
+            <h3>按字幕形态分</h3>
+            <ul>
+              <li>硬字幕：烧进画面，任何设备都能播</li>
+              <li>软字幕：可开关、可换语言、可调字号</li>
+              <li>双语对照：适合学习语言或核对原句</li>
+              <li>注释版：术语、梗与文化背景加注</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="block" id="picks">
+      <div class="block-head">
+        <h2>精选字幕片单<span class="tag">本周 9 部</span></h2>
+        <p>都带具体看点，方便判断值不值得投入两小时。</p>
+        <a class="more" href="/#updates">看更新节奏 →</a>
+      </div>
+      <div class="card-grid">
+
+        <article class="card" data-tags="剧集 悬疑 周更">
+          <div class="thumb">
+            <img src="https://picsum.photos/seed/zhongwu-wugang12/400/300" alt="雾港纪事 第一季 字幕版封面" width="400" height="300" loading="lazy">
+            <span class="badge">剧集 · 周更</span>
+            <span class="score">8.7</span>
+          </div>
+          <div class="body">
+            <h3>雾港纪事 第一季</h3>
+            <div class="meta"><span>悬疑 / 犯罪</span><span>全 12 集</span><span>已出 9 集</span></div>
+            <p class="desc">港口城市连环失踪案，双线叙事在第 6 集交汇。字幕组对标点与方言做了加注，看片时能读懂审讯戏里的语气差别。</p>
+            <div class="tags"><span class="tag-pill">周更剧</span><span class="tag-pill">注释版</span><span class="tag-pill">悬疑</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-tags="电影 剧情 完结">
+          <div class="thumb">
+            <img src="https://picsum.photos/seed/zhongwu-changye07/400/300" alt="长夜订票员 电影字幕版封面" width="400" height="300" loading="lazy">
+            <span class="badge">电影 · 完结</span>
+            <span class="score">8.2</span>
+          </div>
+          <div class="body">
+            <h3>长夜订票员</h3>
+            <div class="meta"><span>剧情 / 公路</span><span>118 分钟</span><span>硬字幕</span></div>
+            <p class="desc">夜班售票员与三位旅客的一夜对话，全片几乎单场景。字幕排版克制，长句断行处理得干净，适合在电视上直接播。</p>
+            <div class="tags"><span class="tag-pill">单片完结</span><span class="tag-pill">单场景</span><span class="tag-pill">公路</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-tags="番剧 动画 季度">
+          <div class="thumb">
+            <img src="https://picsum.photos/seed/zhongwu-fanju21/400/300" alt="纸鸢与铁轨 番剧字幕版封面" width="400" height="300" loading="lazy">
+            <span class="badge">番剧 · 季度</span>
+            <span class="score">9.0</span>
+          </div>
+          <div class="body">
+            <h3>纸鸢与铁轨</h3>
+            <div class="meta"><span>动画 / 成长</span><span>全 12 集</span><span>已完结</span></div>
+            <p class="desc">以铁路小镇为舞台的成长故事，第 10 集的无声段落全靠字幕补足环境音描述。整季已完结，适合一次刷完。</p>
+            <div class="tags"><span class="tag-pill">季度番</span><span class="tag-pill">双语对照</span><span class="tag-pill">成长</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-tags="纪录片 人文 单集">
+          <div class="thumb">
+            <img src="https://picsum.photos/seed/zhongwu-jilu34/400/300" alt="盐田四十年 纪录片字幕版封面" width="400" height="300" loading="lazy">
+            <span class="badge">纪录片</span>
+            <span class="score">8.5</span>
+          </div>
+          <div class="body">
+            <h3>盐田四十年</h3>
+            <div class="meta"><span>人文 / 口述史</span><span>4 集</span><span>软字幕</span></div>
+            <p class="desc">四代盐工的访谈，方言段落配了普通话对照字幕。第二集有大量行业术语，注释版比普通版更好读。</p>
+            <div class="tags"><span class="tag-pill">方言对照</span><span class="tag-pill">口述史</span><span class="tag-pill">注释版</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-tags="剧集 医疗 日更">
+          <div class="thumb">
+            <img src="https://picsum.photos/seed/zhongwu-yiyuan56/400/300" alt="白班与夜班 医疗剧字幕版封面" width="400" height="300" loading="lazy">
+            <span class="badge">剧集 · 日更</span>
+            <span class="score">8.1</span>
+          </div>
+          <div class="body">
+            <h3>白班与夜班</h3>
+            <div class="meta"><span>医疗 / 群像</span><span>全 16 集</span><span>已出 13 集</span></div>
+            <p class="desc">急诊科两班倒的群像剧，术语密度高，字幕组每集附 6 到 10 条注释。日更节奏，晚上 21:00 前后出稿。</p>
+            <div class="tags"><span class="tag-pill">日更剧</span><span class="tag-pill">术语注释</span><span class="tag-pill">医疗</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-tags="电影 科幻 完结">
+          <div class="thumb">
+            <img src="https://picsum.photos/seed/zhongwu-xingji88/400/300" alt="静止轨道 科幻电影字幕版封面" width="400" height="300" loading="lazy">
+            <span class="badge">电影 · 完结</span>
+            <span class="score">7.9</span>
+          </div>
+          <div class="body">
+            <h3>静止轨道</h3>
+            <div class="meta"><span>科幻 / 硬设定</span><span>136 分钟</span><span>双语软字幕</span></div>
+            <p class="desc">空间站失联后的 72 小时，台词里塞了大量工程参数。双语版本能对照原文，硬核设定党会看得比较舒服。</p>
+            <div class="tags"><span class="tag-pill">硬科幻</span><span class="tag-pill">双语对照</span><span class="tag-pill">软字幕</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-tags="综艺 访谈 周更">
+          <div class="thumb">
+            <img src="https://picsum.photos/seed/zhongwu-fangtan63/400/300" alt="深夜长桌 访谈节目字幕版封面" width="400" height="300" loading="lazy">
+            <span class="badge">访谈 · 周更</span>
+            <span class="score">8.4</span>
+          </div>
+          <div class="body">
+            <h3>深夜长桌</h3>
+            <div class="meta"><span>访谈 / 文化</span><span>每集 60 分钟</span><span>每周四</span></div>
+            <p class="desc">每期一位创作者聊作品背后的取舍，字幕保留了停顿和口头语，读起来更像文字稿而不是台词。</p>
+            <div class="tags"><span class="tag-pill">周更</span><span class="tag-pill">口述保留</span><span class="tag-pill">创作者访谈</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-tags="剧集 古装 完结">
+          <div class="thumb">
+            <img src="https://picsum.photos/seed/zhongwu-guzhuang45/400/300" alt="春山渡 古装剧字幕版封面" width="400" height="300" loading="lazy">
+            <span class="badge">剧集 · 完结</span>
+            <span class="score">8.0</span>
+          </div>
+          <div class="body">
+            <h3>春山渡</h3>
+            <div class="meta"><span>古装 / 权谋</span><span>全 24 集</span><span>已完结</span></div>
+            <p class="desc">台词文言比例高，字幕组做了官职与礼制注释。前 4 集信息量大，建议连看两集再判断要不要追完。</p>
+            <div class="tags"><span class="tag-pill">文言注释</span><span class="tag-pill">权谋</span><span class="tag-pill">全季完结</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-tags="番剧 动画 新番">
+          <div class="thumb">
+            <img src="https://picsum.photos/seed/zhongwu-xinfan29/400/300" alt="海雾邮差 新番字幕版封面" width="400" height="300" loading="lazy">
+            <span class="badge">番剧 · 新番</span>
+            <span class="score">8.6</span>
+          </div>
+          <div class="body">
+            <h3>海雾邮差</h3>
+            <div class="meta"><span>动画 / 奇幻</span><span>全 12 集</span><span>已出 7 集</span></div>
+            <p class="desc">送信人穿越雾海群岛的单元故事，每集一个收信人。字幕把地名与船名统一成一套译名，前 3 集不用记名字也能看懂。</p>
+            <div class="tags"><span class="tag-pill">新番</span><span class="tag-pill">单元剧</span><span class="tag-pill">译名统一</span></div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <section class="block" id="updates">
+      <div class="block-head">
+        <h2>今日更新与出字动态<span class="tag">11 月 25 日</span></h2>
+        <p>按时间倒序，标出具体集数与出稿情况。</p>
+      </div>
+      <div class="updates">
+        <div class="row"><span class="time">今天 09:40</span><span class="t">雾港纪事 第一季</span><span class="s">第 9 集字幕版上线，含方言注释 11 条</span><span class="ep">已出 9/12</span></div>
+        <div class="row"><span class="time">今天 08:15</span><span class="t">白班与夜班</span><span class="s">第 13 集出稿，医疗术语表同步更新</span><span class="ep">已出 13/16</span></div>
+        <div class="row"><span class="time">今天 07:50</span><span class="t">海雾邮差</span><span class="s">第 7 集软字幕版上线，硬字幕版延后 6 小时</span><span class="ep">已出 7/12</span></div>
+        <div class="row"><span class="time">昨天 23:20</span><span class="t">长夜订票员</span><span class="s">1080p 硬字幕版补档，修正了前版的 3 处断行</span><span class="ep">完结</span></div>
+        <div class="row"><span class="time">昨天 21:10</span><span class="t">深夜长桌</span><span class="s">第 41 期上线，嘉宾为纪录片导演，字幕保留口语停顿</span><span class="ep">周更</span></div>
+        <div class="row"><span class="time">昨天 19:35</span><span class="t">静止轨道</span><span class="s">双语软字幕版发布，工程参数附对照表</span><span class="ep">完结</span></div>
+        <div class="row"><span class="time">11 月 24 日</span><span class="t">春山渡</span><span class="s">全 24 集打包完成，官职注释版一并放出</span><span class="ep">完结</span></div>
+        <div class="row"><span class="time">11 月 24 日</span><span class="t">盐田四十年</span><span class="s">第 3 集方言对照字幕上线，比原计划晚 2 天</span><span class="ep">已出 3/4</span></div>
+        <div class="row"><span class="time">11 月 23 日</span><span class="t">纸鸢与铁轨</span><span class="s">第 10 集无声段落补上环境音描述字幕</span><span class="ep">完结</span></div>
+        <div class="row"><span class="time">11 月 23 日</span><span class="t">北纬三十度手记</span><span class="s">第 2 集上线，地理名词统一译名</span><span class="ep">已出 2/6</span></div>
+        <div class="row"><span class="time">11 月 22 日</span><span class="t">旧唱片店</span><span class="s">电影字幕版首播，音乐术语附注 18 条</span><span class="ep">完结</span></div>
+        <div class="row"><span class="time">11 月 22 日</span><span class="t">雾港纪事 第一季</span><span class="s">第 8 集修复版重发，解决音轨不同步</span><span class="ep">已出 8/12</span></div>
+      </div>
+    </section>
+
+    <section class="block" id="cats">
+      <div class="block-head">
+        <h2>按类型找片源<span class="tag">8 个分类</span></h2>
+        <p>点选后只保留对应类型的条目，再点一次恢复全部。</p>
+      </div>
+      <div class="filters" id="filters" role="group" aria-label="类型筛选">
+        <button type="button" class="active" data-f="all">全部</button>
+        <button type="button" data-f="剧集">剧集</button>
+        <button type="button" data-f="电影">电影</button>
+        <button type="button" data-f="番剧">番剧动画</button>
+        <button type="button" data-f="纪录片">纪录片</button>
+        <button type="button" data-f="悬疑">悬疑</button>
+        <button type="button" data-f="古装">古装</button>
+        <button type="button" data-f="访谈">访谈综艺</button>
+        <button type="button" data-f="科幻">科幻</button>
+      </div>
+      <p class="filter-note" id="filterNote">当前显示全部 9 部精选片源。</p>
+      <div class="cats">
+        <a class="cat" href="/#picks"><b>悬疑与犯罪</b><span>双线叙事、审讯戏、方言加注</span></a>
+        <a class="cat" href="/#picks"><b>古装与权谋</b><span>文言台词、官职礼制注释</span></a>
+        <a class="cat" href="/#picks"><b>医疗与职场</b><span>术语密度高，注释版优先</span></a>
+        <a class="cat" href="/#picks"><b>科幻与硬设定</b><span>参数对白，双语版本更好读</span></a>
+        <a class="cat" href="/#picks"><b>番剧与动画</b><span>季度排期，译名统一</span></a>
+        <a class="cat" href="/#picks"><b>纪录片与口述史</b><span>方言对照，更新不规律</span></a>
+        <a class="cat" href="/#picks"><b>访谈与综艺</b><span>保留口语停顿，接近文字稿</span></a>
+        <a class="cat" href="/#picks"><b>公路与单场景</b><span>长句断行，适合大屏播放</span></a>
+      </div>
+    </section>
+
+    <section class="block" id="deep">
+      <div class="block-head">
+        <h2>深度解析：字幕版的版本差异与观看顺序</h2>
+        <p>同一部片子，不同版本读起来差别很大。</p>
+      </div>
+      <article class="article">
+        <p>很多人以为字幕版就是“把外语换成中文”，真正看进去会发现，版本之间的差别会影响理解。以《雾港纪事》第一季为例，同一集至少有三种流通版本：内嵌硬字幕、外挂软字幕、双语对照。硬字幕烧在画面里，任何设备都能播，但字号固定，遇到背景是白色墙面时容易发糊；软字幕可以调大小和位置，还能关掉，适合需要反复看某段台词的观众；双语对照把原文留住，适合核对语气和双关。《雾港纪事》第 6 集的审讯戏里有一句方言双关，注释版把它拆成两层意思，普通版只留了字面。</p>
+
+        <h3>三类常见版本的实际差别</h3>
+        <table>
+          <thead><tr><th>版本</th><th>适合场景</th><th>需要注意</th></tr></thead>
+          <tbody>
+            <tr><td>内嵌硬字幕</td><td>电视、投影、老设备直接播</td><td>字号不可调，白色画面下清晰度下降</td></tr>
+            <tr><td>外挂软字幕</td><td>电脑、平板，需要调字号或对照原文</td><td>需要播放器支持，文件名要对上</td></tr>
+            <tr><td>双语对照</td><td>学习语言、核对术语与双关</td><td>屏幕小的时候两行字幕会挤</td></tr>
+          </tbody>
+        </table>
+        <p>选版本不必纠结“哪个最好”，按设备和使用目的来定就行。客厅电视优先硬字幕，笔记本优先软字幕，需要研究台词的段落再切双语。字幕组一般会同时放出两到三个版本，出稿时间差在 6 到 24 小时之间，急着看就先用先出的那版。</p>
+
+        <h3>出字时间差是怎么形成的</h3>
+        <p>一部周更剧从正片上线到中文字幕可用，通常要经过听译、校对、时间轴、压制四个环节。听译最耗时，术语密集的医疗、法律题材尤其明显。《白班与夜班》每集有 6 到 10 条注释，听译阶段就要查资料，出稿时间比同长度的都市剧晚 10 小时左右。番剧的情况不同，季度番往往有固定的排期表，字幕组按周排班，稳定在正片上线后 20 到 30 小时。</p>
+        <ul>
+          <li>听译：决定术语准确度，医疗、法律、科幻题材最慢</li>
+          <li>校对：核对人名地名一致性，多集会统一译名表</li>
+          <li>时间轴：决定字幕出现和消失的时机，影响阅读节奏</li>
+          <li>压制：硬字幕版本的最后一步，软字幕可跳过</li>
+        </ul>
+        <div class="note">判断一个字幕组是否稳定，看它有没有公开的译名表和排期说明，比看单集的出稿速度更可靠。译名前后不一致的版本，看到第 8 集容易对不上人物。</div>
+
+        <h3>多集剧的观看顺序与投入判断</h3>
+        <p>剧集字幕版最常见的浪费是“看了三集才发现不合口味”。比较省时间的做法是先看第 1 集和第 3 集：第 1 集交代设定，第 3 集通常已经进入主线，两集连看基本能判断节奏是否适合自己。《春山渡》前 4 集信息量大，官职和礼制密集，如果第 1 集就觉得吃力，可以先看注释版再回头补正片。《海雾邮差》是单元结构，每集一个收信人，从任意一集切入都不影响理解，适合碎片时间看。</p>
+        <p>番剧的季度结构更简单：12 集的季度番在第 8 集前后进入收束，24 集的半年番在第 12 集有一次转折。如果打算一次刷完，优先选已完结的整季；如果只想跟更新，就确认字幕组有没有排期表。纪录片则相反，单集独立，更新不规律，看到哪集算哪集，不必等齐。</p>
+
+        <h3>字幕质量的实际评判维度</h3>
+        <p>评价一版字幕，可以看四个具体维度：译名是否统一、长句断行是否合理、注释是否克制、口语是否被过度书面化。译名统一最影响连续观看，人物、地名、机构名前后不一致会直接打断理解。长句断行决定阅读负担，一句话拆成三行比挤成两行更好读。注释要克制，满屏注释反而干扰画面，通常每集 6 到 12 条比较合适。口语被过度书面化会让角色失去性格，访谈类节目尤其明显，《深夜长桌》保留停顿和口头语，读起来才像真人说话。</p>
+        <p>把这四点放在一起看，比单纯比较“翻译准不准”更接近实际体验。一部片子的字幕版值不值得等，往往取决于它在这四项上的稳定性，而不是某一句话译得漂不漂亮。</p>
+      </article>
+    </section>
+
+    <section class="block" id="guide">
+      <div class="block-head">
+        <h2>观看路径：从哪一部开始</h2>
+        <p>按投入时间从短到长排，先试水再加码。</p>
+      </div>
+      <div class="steps">
+        <div class="step"><b>先看一部单片完结的电影</b><p>《长夜订票员》118 分钟，单场景对话，硬字幕直接播。用一部电影判断自己是否适应这个语速和字幕节奏。</p></div>
+        <div class="step"><b>再跟一部周更剧的前三集</b><p>《雾港纪事》第 1 到 3 集连看，感受双线叙事和方言注释。如果第三集还想继续，就把它加入固定追更。</p></div>
+        <div class="step"><b>试一集术语密集的剧</b><p>《白班与夜班》第 13 集，看注释版是否影响观感。能接受就说明你适合医疗、法律这类高密度题材。</p></div>
+        <div class="step"><b>挑一部已完结的番剧一次刷完</b><p>《纸鸢与铁轨》全 12 集，第 10 集的无声段落能检验字幕对环境音的补足能力。</p></div>
+        <div class="step"><b>最后补纪录片与访谈</b><p>《盐田四十年》方言对照版与《深夜长桌》第 41 期，节奏慢，适合作为长线补充。</p></div>
+      </div>
+    </section>
+
+    <section class="block" id="faq">
+      <div class="block-head">
+        <h2>常见问答</h2>
+        <p>围绕片源、版本和更新节奏的真实疑问。</p>
+      </div>
+      <div class="faq">
+        <details>
+          <summary>周更剧的字幕版一般多久出一次？</summary>
+          <div class="ans">以《雾港纪事》为例，正片上线后 30 到 50 小时出稿，稳定在每周固定一天。医疗、法律题材会晚 10 小时左右，因为听译阶段要查术语。番剧按季度排期，通常在正片上线后 20 到 30 小时。</div>
+        </details>
+        <details>
+          <summary>硬字幕和软字幕到底选哪个？</summary>
+          <div class="ans">客厅电视、投影、老设备选硬字幕，插上就能播。电脑和平板选软字幕，能调字号、换语言、关掉字幕。需要核对原文或研究双关时，用双语对照版。字幕组一般同时放出两到三个版本，时间差在 6 到 24 小时。</div>
+        </details>
+        <details>
+          <summary>第一次看这类字幕片源，从哪一部开始比较好？</summary>
+          <div class="ans">从单片完结的电影开始最稳，《长夜订票员》118 分钟，单场景对话，字幕排版克制。看完再决定要不要跟周更剧。如果偏好快节奏，可以直接从《雾港纪事》前三集切入。</div>
+        </details>
+        <details>
+          <summary>《雾港纪事》和《白班与夜班》有什么区别？</summary>
+          <div class="ans">前者是悬疑犯罪，双线叙事，方言和审讯戏多，注释偏语言；后者是医疗群像，两班倒结构，术语密度高，注释偏专业名词。前者适合喜欢推理的观众，后者适合能接受高信息密度的观众。</div>
+        </details>
+        <details>
+          <summary>字幕质量通常按什么标准判断？</summary>
+          <div class="ans">看四点：译名是否前后统一、长句断行是否合理、注释是否克制、口语有没有被过度书面化。译名不统一对连续观看影响最大；注释每集 6 到 12 条比较合适，太多会挡画面。</div>
+        </details>
+        <details>
+          <summary>纪录片和访谈类为什么更新不规律？</summary>
+          <div class="ans">这类片源多由字幕组按兴趣推进，没有固定排期。《盐田四十年》第 3 集比原计划晚 2 天，主要卡在方言听译上。想跟更新，可以关注字幕组公布的排期说明，而不是每天刷。</div>
+        </details>
+      </div>
+    </section>
+
+    <section class="block" id="comments">
+      <div class="block-head">
+        <h2>观众评论<span class="tag">16 条</span></h2>
+        <p>围绕具体条目和版本的真实反馈，含中性评价。</p>
+      </div>
+      <div class="comments">
+        <div class="cmt"><div class="who"><span class="av">林</span><span class="name">林间慢跑</span><span class="when">今天 10:12</span></div><p>《雾港纪事》第 9 集的方言注释帮了大忙，那句双关不看注真的会漏掉。</p></div>
+        <div class="cmt"><div class="who"><span class="av">周</span><span class="name">周口小面</span><span class="when">今天 09:05</span></div><p>《白班与夜班》术语太多，注释版比普通版好读，但一集 10 条注释还是有点挡画面。</p></div>
+        <div class="cmt"><div class="who"><span class="av">陈</span><span class="name">陈年旧唱片</span><span class="when">昨天 22:40</span></div><p>《旧唱片店》的音乐术语附注做得很细，18 条不算多，反而补上了不少背景。</p></div>
+        <div class="cmt"><div class="who"><span class="av">吴</span><span class="name">吴山点点</span><span class="when">昨天 21:18</span></div><p>《春山渡》前四集确实吃力，官职名一堆。我改看注释版之后顺了很多。</p></div>
+        <div class="cmt"><div class="who"><span class="av">许</span><span class="name">许我三日</span><span class="when">昨天 20:02</span></div><p>《纸鸢与铁轨》第 10 集的无声段落处理得不错，环境音描述字幕比硬加台词自然。</p></div>
+        <div class="cmt"><div class="who"><span class="av">何</span><span class="name">何处不飞花</span><span class="when">昨天 18:47</span></div><p>《海雾邮差》译名统一这点很加分，前几集不用记一堆船名也能看懂。</p></div>
+        <div class="cmt"><div class="who"><span class="av">郑</span><span class="name">郑在看书</span><span class="when">11 月 24 日</span></div><p>《静止轨道》双语版对照看参数对白，比单语版省事。就是屏幕小的时候两行有点挤。</p></div>
+        <div class="cmt"><div class="who"><span class="av">孙</span><span class="name">孙半仙</span><span class="when">11 月 24 日</span></div><p>《长夜订票员》硬字幕版在电视上直接播很省心，长句断行处理得干净。</p></div>
+        <div class="cmt"><div class="who"><span class="av">马</span><span class="name">马路边边</span><span class="when">11 月 24 日</span></div><p>《盐田四十年》第 3 集晚了两天，方言听译确实慢，可以理解。</p></div>
+        <div class="cmt"><div class="who"><span class="av">冯</span><span class="name">冯家屯</span><span class="when">11 月 23 日</span></div><p>《深夜长桌》第 41 期保留了停顿，读起来像文字稿，不像背台词。</p></div>
+        <div class="cmt"><div class="who"><span class="av">邓</span><span class="name">邓小满</span><span class="when">11 月 23 日</span></div><p>《雾港纪事》第 8 集修复版重发之后音轨才对上，之前那版看得很难受。</p></div>
+        <div class="cmt"><div class="who"><span class="av">曹</span><span class="name">曹家渡</span><span class="when">11 月 23 日</span></div><p>《白班与夜班》日更节奏挺稳的，晚上九点前后基本能等到。</p></div>
+        <div class="cmt"><div class="who"><span class="av">彭</span><span class="name">彭城旧梦</span><span class="when">11 月 22 日</span></div><p>《北纬三十度手记》第 2 集译名统一了，比第 1 集读着舒服。</p></div>
+        <div class="cmt"><div class="who"><span class="av">韩</span><span class="name">韩江口</span><span class="when">11 月 22 日</span></div><p>《海雾邮差》第 7 集软字幕先出、硬字幕晚 6 小时，急着看就先用软字幕。</p></div>
+        <div class="cmt"><div class="who"><span class="av">袁</span><span class="name">袁家岭</span><span class="when">11 月 21 日</span></div><p>《春山渡》全 24 集打包之后一口气看完，注释版比普通版更适合补剧。</p></div>
+        <div class="cmt"><div class="who"><span class="av">于</span><span class="name">于无声处</span><span class="when">11 月 21 日</span></div><p>《纸鸢与铁轨》从任意一集切入都能看懂，但第 10 集最好别跳。</p></div>
+      </div>
+    </section>
+
+    <section class="block" id="news">
+      <div class="block-head">
+        <h2>相关资讯</h2>
+        <p>片源上线、版本调整与社区讨论焦点。</p>
+      </div>
+
+      <article class="news-item">
+        <img src="https://picsum.photos/seed/zhongwu-news-wugang01/600/400" alt="雾港纪事第九集字幕版上线的资讯配图" width="600" height="400" loading="lazy">
+        <div>
+          <div class="date">2026-11-25</div>
+          <h3>《雾港纪事》第 9 集字幕版上线，方言注释增至 11 条</h3>
+          <p>本集审讯戏方言比例明显上升，字幕组同步放出了注释对照表，普通版与注释版同时可用。</p>
+        </div>
+      </article>
+
+      <article class="news-item">
+        <img src="https://picsum.photos/seed/zhongwu-news-baiban02/600/400" alt="白班与夜班字幕组术语表更新的资讯配图" width="600" height="400" loading="lazy">
+        <div>
+          <div class="date">2026-11-24</div>
+          <h3>《白班与夜班》术语表更新到第 13 集，新增 42 个词条</h3>
+          <p>字幕组把急诊科常见缩写整理成独立文档，后续集数会沿用同一套译名，减少前后不一致。</p>
+        </div>
+      </article>
+
+      <article class="news-item">
+        <img src="https://picsum.photos/seed/zhongwu-news-chunshan03/600/400" alt="春山渡全季打包与官职注释版的资讯配图" width="600" height="400" loading="lazy">
+        <div>
+          <div class="date">2026-11-24</div>
+          <h3>《春山渡》全 24 集打包完成，官职注释版一并放出</h3>
+          <p>此前分批更新的集数统一重压，注释版补齐了礼制与官阶说明，适合补剧观众一次看完。</p>
+        </div>
+      </article>
+
+      <article class="news-item">
+        <img src="https://picsum.photos/seed/zhongwu-news-yantian04/600/400" alt="盐田四十年方言对照字幕延期的资讯配图" width="600" height="400" loading="lazy">
+        <div>
+          <div class="date">2026-11-23</div>
+          <h3>《盐田四十年》第 3 集方言对照字幕延期两天上线</h3>
+          <p>口述史段落方言密度高，听译与校对耗时超出预期，字幕组在排期页说明了具体原因。</p>
+        </div>
+      </article>
+
+      <article class="news-item">
+        <img src="https://picsum.photos/seed/zhongwu-news-ruan05/600/400" alt="软字幕版本比例上升的社区讨论配图" width="600" height="400" loading="lazy">
+        <div>
+          <div class="date">2026-11-22</div>
+          <h3>软字幕版本比例上升，多设备切换需求推动双版本发布</h3>
+          <p>越来越多字幕组同时提供硬字幕与软字幕，观众按设备选择，硬字幕版仍是大屏首选。</p>
+        </div>
+      </article>
+
+      <article class="news-item">
+        <img src="https://picsum.photos/seed/zhongwu-news-haifu06/600/400" alt="海雾邮差译名表统一发布的资讯配图" width="600" height="400" loading="lazy">
+        <div>
+          <div class="date">2026-11-21</div>
+          <h3>《海雾邮差》译名表统一发布，地名与船名共 63 条</h3>
+          <p>字幕组把前 7 集出现的地名、船名、人名整理成对照表，后续集数将沿用同一套译法。</p>
+        </div>
+      </article>
+    </section>
+
+    <section class="block" id="rec">
+      <div class="block-head">
+        <h2>相关推荐</h2>
+        <p>延伸方向与具体条目，按兴趣继续往下找。</p>
+      </div>
+      <div class="rec-tags">
+        <a href="/#picks">双线叙事悬疑剧</a>
+        <a href="/#picks">文言台词注释版</a>
+        <a href="/#picks">单场景对话电影</a>
+        <a href="/#picks">硬科幻双语对照</a>
+        <a href="/#picks">口述史方言字幕</a>
+        <a href="/#picks">单元结构番剧</a>
+        <a href="/#picks">创作者长访谈</a>
+        <a href="/#deep">字幕组排期表</a>
+      </div>
+    </section>
+
+    <section class="block" id="rank">
+      <div class="block-head">
+        <h2>本周字幕片源热榜<span class="tag">TOP 10</span></h2>
+        <p>按近 7 天观看与收藏综合排序，更新至 11 月 25 日。</p>
+      </div>
+      <div class="rank">
+        <div class="r"><span class="no">01</span><span class="nm">雾港纪事 第一季<span class="sub">悬疑 · 周更</span></span><span class="heat">9.6 万</span></div>
+        <div class="r"><span class="no">02</span><span class="nm">纸鸢与铁轨<span class="sub">番剧 · 已完结</span></span><span class="heat">8.9 万</span></div>
+        <div class="r"><span class="no">03</span><span class="nm">白班与夜班<span class="sub">医疗 · 日更</span></span><span class="heat">8.1 万</span></div>
+        <div class="r"><span class="no">04</span><span class="nm">长夜订票员<span class="sub">电影 · 硬字幕</span></span><span class="heat">7.3 万</span></div>
+        <div class="r"><span class="no">05</span><span class="nm">海雾邮差<span class="sub">新番 · 单元剧</span></span><span class="heat">6.8 万</span></div>
+        <div class="r"><span class="no">06</span><span class="nm">春山渡<span class="sub">古装 · 全季完结</span></span><span class="heat">6.2 万</span></div>
+        <div class="r"><span class="no">07</span><span class="nm">静止轨道<span class="sub">科幻 · 双语</span></span><span class="heat">5.4 万</span></div>
+        <div class="r"><span class="no">08</span><span class="nm">盐田四十年<span class="sub">纪录片 · 方言对照</span></span><span class="heat">4.7 万</span></div>
+        <div class="r"><span class="no">09</span><span class="nm">深夜长桌<span class="sub">访谈 · 周更</span></span><span class="heat">4.1 万</span></div>
+        <div class="r"><span class="no">10</span><span class="nm">旧唱片店<span class="sub">电影 · 音乐注释</span></span><span class="heat">3.5 万</span></div>
+      </div>
+    </section>
+
+    <section class="block" id="timeline">
+      <div class="block-head">
+        <h2>近 30 天片源时间线</h2>
+        <p>关键上线与版本调整节点。</p>
+      </div>
+      <div class="timeline">
+        <div class="tl"><b>雾港纪事 第一季 第 9 集上线</b><span>2026-11-25</span><p>方言注释增至 11 条，普通版与注释版同时可用。</p></div>
+        <div class="tl"><b>白班与夜班 第 13 集出稿</b><span>2026-11-25</span><p>术语表同步更新，新增 42 个词条。</p></div>
+        <div class="tl"><b>春山渡 全 24 集打包完成</b><span>2026-11-24</span><p>官职与礼制注释版一并放出，适合补剧。</p></div>
+        <div class="tl"><b>静止轨道 双语软字幕版发布</b><span>2026-11-24</span><p>工程参数附对照表，硬核设定党友好。</p></div>
+        <div class="tl"><b>盐田四十年 第 3 集上线</b><span>2026-11-24</span><p>方言对照字幕延期两天，排期页已说明原因。</p></div>
+        <div class="tl"><b>纸鸢与铁轨 第 10 集补足环境音字幕</b><span>2026-11-23</span><p>无声段落以描述性字幕呈现。</p></div>
+        <div class="tl"><b>旧唱片店 电影字幕版首播</b><span>2026-11-22</span><p>音乐术语附注 18 条，硬字幕为主。</p></div>
+        <div class="tl"><b>北纬三十度手记 第 2 集上线</b><span>2026-11-21</span><p>地理名词统一译名，前后一致性改善。</p></div>
+      </div>
+    </section>
+
+  </main>
+
+  <aside class="rail-right" aria-label="辅助栏">
+    <div class="side-card">
+      <h3>正在出字</h3>
+      <div class="side-list">
+        <a href="/#updates"><i>01</i><span>雾港纪事 第 10 集<span class="sm">预计 11 月 27 日</span></span></a>
+        <a href="/#updates"><i>02</i><span>白班与夜班 第 14 集<span class="sm">预计今晚 21:00</span></span></a>
+        <a href="/#updates"><i>03</i><span>海雾邮差 第 8 集<span class="sm">硬字幕版延后 6 小时</span></span></a>
+        <a href="/#updates"><i>04</i><span>盐田四十年 第 4 集<span class="sm">方言校对中</span></span></a>
+        <a href="/#updates"><i>05</i><span>深夜长桌 第 42 期<span class="sm">11 月 27 日周四</span></span></a>
+      </div>
+    </div>
+
+    <div class="side-card">
+      <h3>热门版本词</h3>
+      <div class="side-list">
+        <a href="/#deep"><i>·</i><span>硬字幕版</span></a>
+        <a href="/#deep"><i>·</i><span>软字幕可切换</span></a>
+        <a href="/#deep"><i>·</i><span>双语对照</span></a>
+        <a href="/#deep"><i>·</i><span>术语注释版</span></a>
+        <a href="/#deep"><i>·</i><span>方言对照字幕</span></a>
+      </div>
+    </div>
+
+    <div class="side-card">
+      <h3>字幕组排期说明</h3>
+      <p class="side-note">周更剧固定在工作日出稿，番剧按季度排班，纪录片视听译难度而定。译名表与排期页会随集数更新，跟更新时优先看排期说明，比每天刷更省时间。</p>
+    </div>
+
+    <div class="side-card">
+      <h3>快速跳转</h3>
+      <div class="side-list">
+        <a href="/#overview"><i>→</i><span>片源概览</span></a>
+        <a href="/#picks"><i>→</i><span>精选片单</span></a>
+        <a href="/#faq"><i>→</i><span>常见问答</span></a>
+        <a href="/#rank"><i>→</i><span>本周热榜</span></a>
+      </div>
+    </div>
+  </aside>
+
+</div>
+
+<footer class="site">
+  <div class="foot-wrap">
+    <div class="foot-brand">
+      <div class="bname">中午字幕在线看视频国内在线播放</div>
+      <p>整理中文字幕电影、剧集、番剧与纪录片的片源类型、出字节奏与版本差异，帮你在固定时间里挑到合适的一部。</p>
+    </div>
+    <div class="foot-col">
+      <h4>片源频道</h4>
+      <a href="/#picks">电影字幕版</a>
+      <a href="/#picks">剧集字幕版</a>
+      <a href="/#picks">番剧与动画</a>
+      <a href="/#picks">纪录片与访谈</a>
+    </div>
+    <div class="foot-col">
+      <h4>观看参考</h4>
+      <a href="/#deep">版本差异解析</a>
+      <a href="/#guide">新手观看路径</a>
+      <a href="/#faq">常见问答</a>
+      <a href="/#timeline">片源时间线</a>
+    </div>
+    <div class="foot-col">
+      <h4>社区与榜单</h4>
+      <a href="/#rank">本周热榜</a>
+      <a href="/#comments">观众评论</a>
+      <a href="/#news">相关资讯</a>
+      <a href="/#rec">相关推荐</a>
+    </div>
+  </div>
+  <div class="foot-bottom">
+    <span>内容为片源类型与观看顺序整理，评分、热度与更新时间为示例信息，以实际片源为准。</span>
+    <span>© 2026 中午字幕在线看视频国内在线播放 · 页面内容整理</span>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var q = document.getElementById('q');
+  var qbtn = document.getElementById('qbtn');
+  var cards = Array.prototype.slice.call(document.querySelectorAll('#picks .card'));
+  var filters = document.getElementById('filters');
+  var note = document.getElementById('filterNote');
+  var activeFilter = 'all';
+
+  function matches(card, kw){
+    if(!kw) return true;
+    var text = (card.textContent || '').toLowerCase();
+    return text.indexOf(kw.toLowerCase()) > -1;
+  }
+
+  function apply(){
+    var kw = (q.value || '').trim();
+    var shown = 0;
+    cards.forEach(function(c){
+      var okFilter = activeFilter === 'all' || (c.getAttribute('data-tags') || '').indexOf(activeFilter) > -1;
+      var okKw = matches(c, kw);
+      var show = okFilter && okKw;
+      c.classList.toggle('hidden', !show);
+      if(show) shown++;
+    });
+    var base = activeFilter === 'all' ? '全部 9 部精选片源' : '「' + activeFilter + '」类型片源';
+    if(kw){
+      note.textContent = shown > 0
+        ? '查找「' + kw + '」：在' + base + '中匹配到 ' + shown + ' 部。'
+        : '查找「' + kw + '」：没有匹配的片源，换个片名或类型词试试。';
+    }else{
+      note.textContent = '当前显示' + base + '，共 ' + shown + ' 部。';
+    }
+  }
+
+  qbtn.addEventListener('click', apply);
+  q.addEventListener('input', apply);
+  q.addEventListener('keydown', function(e){
+    if(e.key === 'Enter'){ e.preventDefault(); apply(); }
+  });
+
+  if(filters){
+    filters.addEventListener('click', function(e){
+      var b = e.target.closest('button[data-f]');
+      if(!b) return;
+      activeFilter = b.getAttribute('data-f');
+      Array.prototype.forEach.call(filters.querySelectorAll('button'), function(x){
+        x.classList.toggle('active', x === b);
+      });
+      apply();
+    });
+  }
+})();
+</script>
+</body>
+            </html>
